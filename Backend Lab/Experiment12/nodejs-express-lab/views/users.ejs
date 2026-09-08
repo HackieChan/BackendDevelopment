@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Users List</title>
+  <style>
+    body {
+      font-family: "Times New Roman", Times, serif;
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+    h1 {
+      font-family: "Tan Twinkle", serif;
+      color: #0F4C81;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      background-color: #0F4C81;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>Users List</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Gender</th>
+        <th>Batch</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% users.forEach(function(user) { %>
+        <tr>
+          <td><%= user.id %></td>
+          <td><%= user.name %></td>
+          <td><%= user.email %></td>
+          <td><%= user.gender || '' %></td>
+          <td><%= user.batch || '' %></td>
+        </tr>
+      <% }); %>
+    </tbody>
+  </table>
+  
+  <% if (users.length === 0) { %>
+    <p>No users found.</p>
+  <% } %>
+</body>
+</html>
