@@ -3,138 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Backend Development Portfolio</title>
-    <!-- Tailwind CSS CDN -->
+    <title>Backend Development | Portfolio</title>
+    <!-- Premium Google Font: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
 </head>
-<body class="bg-slate-900 text-slate-100 min-h-screen font-sans">
+<body class="bg-white text-gray-900 antialiased">
 
-    <!-- Header / Banner -->
-    <header class="border-b border-slate-800 bg-slate-950 py-12 px-6">
-        <div class="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-            <div>
-                <span class="text-xs font-semibold tracking-wider text-emerald-400 uppercase bg-emerald-950/50 border border-emerald-800 px-3 py-1 rounded-full">Academic Portfolio</span>
-                <h1 class="text-3xl md:text-4xl font-bold mt-2 text-white">Backend Web Development</h1>
-                <p class="text-slate-400 mt-1">Coursework, Laboratory Experiments & Theoretical Concepts</p>
-            </div>
-            <a href="https://github.com/HackieChan/BackendDevelopment" target="_blank" class="flex items-center gap-2 bg-slate-800 hover:bg-slate-700 text-white px-4 py-2 rounded-lg border border-slate-700 transition">
-                <i class="fab fa-github"></i> View Source Code
-            </a>
-        </div>
-    </header>
-
-    <!-- Main Content -->
-    <main class="max-w-5xl mx-auto px-6 py-12">
+    <!-- Container -->
+    <div class="max-w-3xl mx-auto px-6 py-16 md:py-24">
         
-        <!-- Welcome Card -->
-        <div class="bg-gradient-to-r from-emerald-900/20 to-teal-900/20 border border-emerald-800/40 rounded-xl p-6 mb-12">
-            <h2 class="text-xl font-bold text-emerald-300 flex items-center gap-2">
-                <i class="fas fa-graduation-cap"></i> Student Profile
-            </h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4 text-sm text-slate-300">
-                <p><strong>Name:</strong> Himanshu</p>
-                <p><strong>Institution:</strong> UPES Dehradun</p>
-                <p><strong>Course:</strong> CCVT (Cloud Computing & Virtualization Technology)</p>
-                <p><strong>Tech Stack Explored:</strong> Node.js, Express.js, EJS, Python, Flask</p>
-            </div>
-        </div>
-
-        <!-- Labs & Theory Section -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Header -->
+        <header class="border-b border-gray-200 pb-10 mb-12">
+            <h1 class="text-4xl font-bold tracking-tight text-black mb-3">Backend Development</h1>
+            <p class="text-lg text-gray-600">Coursework, Laboratory Experiments & Theoretical Concepts.</p>
             
-            <!-- LAB EXPERIMENTS COLUMN -->
-            <div class="space-y-6">
-                <h2 class="text-2xl font-bold text-white border-b border-slate-800 pb-2 flex items-center gap-2">
-                    <i class="fas fa-flask text-emerald-400"></i> Laboratory Experiments
-                </h2>
-                <p class="text-sm text-slate-400">Total 12 experiments implementing core server architecture, routers, controllers, and APIs.</p>
-                
-                <div class="space-y-3">
-                    <!-- Exp 1-4 Link -->
-                    <div class="bg-slate-950 border border-slate-800 rounded-lg p-4 hover:border-emerald-500/50 transition">
-                        <div class="flex justify-between items-start">
-                            <div>
-                                <h3 class="font-semibold text-white">Labs 1 to 4: Basics & HTTP</h3>
-                                <p class="text-xs text-slate-400 mt-1">HTTP Server creation, fundamental Routing, and introductory Express setups.</p>
-                            </div>
-                            <a href="./Backend%20Lab/" class="text-emerald-400 hover:text-emerald-300 text-sm flex items-center gap-1">
-                                View <i class="fas fa-arrow-right text-xs"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Exp 5-8 Link -->
-                    <div class="bg-slate-950 border border-slate-800 rounded-lg p-4 hover:border-emerald-500/50 transition">
-                        <div class="flex justify-between items-start">
-                            <div>
-                                <h3 class="font-semibold text-white">Labs 5 to 8: Controllers & Views</h3>
-                                <p class="text-xs text-slate-400 mt-1">Implementation of MVC architecture patterns and Templating Engines (EJS).</p>
-                            </div>
-                            <a href="./Backend%20Lab/" class="text-emerald-400 hover:text-emerald-300 text-sm flex items-center gap-1">
-                                View <i class="fas fa-arrow-right text-xs"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Exp 9-12 Link -->
-                    <div class="bg-slate-950 border border-slate-800 rounded-lg p-4 hover:border-emerald-500/50 transition">
-                        <div class="flex justify-between items-start">
-                            <div>
-                                <h3 class="font-semibold text-white">Labs 9 to 12: CRUD & Databases</h3>
-                                <p class="text-xs text-slate-400 mt-1">Full CRUD operations, REST API routing, and basic Mongoose integration.</p>
-                            </div>
-                            <a href="./Backend%20Lab/" class="text-emerald-400 hover:text-emerald-300 text-sm flex items-center gap-1">
-                                View <i class="fas fa-arrow-right text-xs"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+            <div class="mt-8 flex flex-col sm:flex-row sm:gap-8 text-sm text-gray-600">
+                <p><span class="font-semibold text-black">Author:</span> Himanshu</p>
+                <p><span class="font-semibold text-black">Institution:</span> UPES Dehradun</p>
+                <p><span class="font-semibold text-black">Course:</span> CCVT</p>
             </div>
 
-            <!-- THEORY & DEMONSTRATIONS COLUMN -->
-            <div class="space-y-6">
-                <h2 class="text-2xl font-bold text-white border-b border-slate-800 pb-2 flex items-center gap-2">
-                    <i class="fas fa-book text-teal-400"></i> Classroom Theory
-                </h2>
-                <p class="text-sm text-slate-400">Units dedicated to exploring alternative backend systems and templating strategies.</p>
-                
-                <div class="space-y-3">
-                    <!-- Theory Node -->
-                    <div class="bg-slate-950 border border-slate-800 rounded-lg p-4 hover:border-teal-500/50 transition">
-                        <div class="flex justify-between items-start">
-                            <div>
-                                <h3 class="font-semibold text-white">Unit 1: Node.js + EJS</h3>
-                                <p class="text-xs text-slate-400 mt-1">Server-side rendering templates, binding dynamic JSON data to frontends.</p>
-                            </div>
-                            <a href="./Backend%20Theory/" class="text-teal-400 hover:text-teal-300 text-sm flex items-center gap-1">
-                                View <i class="fas fa-arrow-right text-xs"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Theory Flask -->
-                    <div class="bg-slate-950 border border-slate-800 rounded-lg p-4 hover:border-teal-500/50 transition">
-                        <div class="flex justify-between items-start">
-                            <div>
-                                <h3 class="font-semibold text-white">Unit 1: Python Flask</h3>
-                                <p class="text-xs text-slate-400 mt-1">Setting up lightweight Flask routing and rendering backend dynamic components.</p>
-                            </div>
-                            <a href="./Backend%20Theory/" class="text-teal-400 hover:text-teal-300 text-sm flex items-center gap-1">
-                                View <i class="fas fa-arrow-right text-xs"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+            <div class="mt-8">
+                <a href="https://github.com/HackieChan/BackendDevelopment" target="_blank" class="inline-block text-sm font-medium border border-gray-300 text-black px-5 py-2.5 hover:bg-gray-50 transition duration-150 ease-in-out">
+                    ↗ View Source on GitHub
+                </a>
             </div>
+        </header>
 
-        </div>
-    </main>
+        <!-- Main Content -->
+        <main class="space-y-16">
+            
+            <!-- Section: Lab Experiments -->
+            <section>
+                <h2 class="text-2xl font-semibold tracking-tight text-black mb-2">Laboratory Experiments</h2>
+                <p class="text-gray-500 mb-6">Practical assignments focusing on Node.js, Express architecture, and RESTful APIs.</p>
+                
+                <div class="space-y-4">
+                    <a href="./Backend%20Lab/" class="block border border-gray-200 p-5 hover:border-black transition duration-150">
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <h3 class="font-semibold text-black text-lg">Experiments 1 - 4</h3>
+                                <p class="text-gray-600 text-sm mt-1">Basics, HTTP Server creation, and intro to Express routing.</p>
+                            </div>
+                            <span class="text-gray-400">→</span>
+                        </div>
+                    </a>
 
-    <!-- Footer -->
-    <footer class="border-t border-slate-800 bg-slate-950 py-6 text-center text-xs text-slate-500">
-        <p>&copy; 2026 Himanshu | Backend Development Lab Portfolio</p>
-    </footer>
+                    <a href="./Backend%20Lab/" class="block border border-gray-200 p-5 hover:border-black transition duration-150">
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <h3 class="font-semibold text-black text-lg">Experiments 5 - 8</h3>
+                                <p class="text-gray-600 text-sm mt-1">MVC architecture patterns and EJS Templating Engines.</p>
+                            </div>
+                            <span class="text-gray-400">→</span>
+                        </div>
+                    </a>
 
+                    <a href="./Backend%20Lab/" class="block border border-gray-200 p-5 hover:border-black transition duration-150">
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <h3 class="font-semibold text-black text-lg">Experiments 9 - 12</h3>
+                                <p class="text-gray-600 text-sm mt-1">CRUD operations, Database integration, and advanced routing.</p>
+                            </div>
+                            <span class="text-gray-400">→</span>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+            <!-- Section: Theory -->
+            <section>
+                <h2 class="text-2xl font-semibold tracking-tight text-black mb-2">Classroom Theory</h2>
+                <p class="text-gray-500 mb-6">Theoretical demonstrations exploring backend rendering and frameworks.</p>
+                
+                <div class="space-y-4">
+                    <a href="./Backend%20Theory/" class="block border border-gray-200 p-5 hover:border-black transition duration-150">
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <h3 class="font-semibold text-black text-lg">Unit 1: Node.js + EJS</h3>
+                                <p class="text-gray-600 text-sm mt-1">Server-side rendering and dynamic data binding.</p>
+                            </div>
+                            <span class="text-gray-400">→</span>
+                        </div>
+                    </a>
+
+                    <a href="./Backend%20Theory/" class="block border border-gray-200 p-5 hover:border-black transition duration-150">
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <h3 class="font-semibold text-black text-lg">Unit 1: Python Flask</h3>
+                                <p class="text-gray-600 text-sm mt-1">Lightweight Python routing and backend structuring.</p>
+                            </div>
+                            <span class="text-gray-400">→</span>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="mt-20 pt-8 border-t border-gray-200 text-sm text-gray-500">
+            <p>&copy; 2026 Himanshu. UPES Dehradun.</p>
+        </footer>
+
+    </div>
 </body>
 </html>
