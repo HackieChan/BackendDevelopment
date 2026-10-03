@@ -1,35 +1,59 @@
-# BackendDevelopment
+# 🚀 Backend Web Development Portfolio
 
-Welcome to the **BackendDevelopment** repository! This project serves as a comprehensive collection of coursework, containing both theoretical demonstrations and practical lab experiments for backend web development.
+Welcome to my backend development repository! This project serves as a comprehensive archive of my academic coursework, housing both theoretical concepts and hands-on practical lab experiments. 
 
 ---
 
-## Repository Structure
+## 👤 Student Information
 
-The repository is organized into distinct directories to keep theoretical concepts separate from practical, hands-on applications.
+| Detail | Information |
+|---|---|
+| **Author** | [Your Name] |
+| **Course** | Backend Web Development |
+| **Institution** | UPES Dehradun |
+| **Current Progress** | Experiment 12 completed & Unit 1 Theory demonstrations updated |
+
+---
+
+## 📂 Repository Structure
+
+The repository is structured to maintain a clear separation between experimental laboratory work and conceptual classroom theory.
 
 | Directory / File | Description |
-| :--- | :--- |
-| **Backend Lab** | Contains practical lab assignments and code. Currently updated with materials up to Experiment 12. |
-| **Backend Theory** | Houses theoretical coursework and unit demonstrations. Features examples such as Unit 1 demos utilizing Node.js with EJS, as well as Python Flask. |
-| **.gitignore** | Standard configuration file specifying untracked files that Git should ignore. |
+|---|---|
+| **📂 Backend Lab** | Contains practical lab assignments, currently updated with materials up to **Experiment 12**. |
+| **📂 Backend Theory** | Houses theoretical coursework and unit demonstrations, including **Unit 1** examples (Node.js + EJS and Python Flask). |
+| **📄 .gitignore** | Standard configuration to prevent tracking of environment files and `node_modules`. |
 
 ---
 
-## Technologies Explored
+## 🛠️ Technologies Explored
 
-Based on the commit history and demonstration files, this repository covers backend development using the following technologies:
+This portfolio showcases hands-on experience in building scalable server-side systems using:
 
-*   **Node.js**
-*   **EJS** (Embedded JavaScript templating)
-*   **Flask** (Python web framework)
+*   **Node.js & Express.js** — Core runtime and frameworks for JavaScript backend environments.
+*   **EJS (Embedded JavaScript)** — Templating engine utilized for generating dynamic HTML pages on the server.
+*   **Python & Flask** — Lightweight WSGI web application framework for Python-based backend architectures.
+*   **Git & GitHub** — Version control and codebase management.
 
 ---
 
-## Getting Started
+## 📖 Curriculum & Lab Coverage
 
-To explore the code and run the experiments locally, clone this repository to your local machine using the following command:
+### 🧪 Practical Labs (`/Backend Lab`)
+The lab exercises demonstrate incremental learning of server setups, API routing, dynamic rendering, and logic implementation up to **Experiment 12**.
 
-`git clone https://github.com/ritkritig/BackendDevelopment.git`
+### 📝 Theoretical Units (`/Backend Theory`)
+*   **Unit 1 Demos:**
+    *   Node.js integrations utilizing EJS templating.
+    *   Python-based Flask applications to study architectural differences.
 
-Navigate into either the `Backend Lab` or `Backend Theory` directories to find specific instructions and source code for the individual experiments and unit demonstrations.
+---
+
+## 🏁 Getting Started
+
+To explore the code and run the experiments locally:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/HackieChan/BackendDevelopment.git
