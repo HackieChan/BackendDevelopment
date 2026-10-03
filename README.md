@@ -8,10 +8,9 @@ Welcome to my backend development repository! This project serves as a comprehen
 
 | Detail | Information |
 |---|---|
-| **Author** | [Your Name] |
+| **Author** |Himanshu Sharma |
 | **Course** | Backend Web Development |
 | **Institution** | UPES Dehradun |
-| **Current Progress** | Experiment 12 completed & Unit 1 Theory demonstrations updated |
 
 ---
 
