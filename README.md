@@ -4,7 +4,7 @@ Welcome to my backend development repository! This project serves as a comprehen
 
 ---
 
-## 👤 Student Information
+##  Student Information
 
 | Detail | Information |
 |---|---|
